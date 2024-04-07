@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08E04C26-7939-41C9-A5B7-B57A6C1BA747}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>StudiiKasus.My.MyApplication</StartupObject>
+    <RootNamespace>StudiiKasus</RootNamespace>
+    <AssemblyName>StudiiKasus</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>StudiiKasus.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>StudiiKasus.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frCheckBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frCheckBox.Designer.vb">
+      <DependentUpon>frCheckBox.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frComboBox.Designer.vb">
+      <DependentUpon>frComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frComboBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frHari.Designer.vb">
+      <DependentUpon>frHari.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frHari.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frKonstanta.Designer.vb">
+      <DependentUpon>frKonstanta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frKonstanta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLaporan.Designer.vb">
+      <DependentUpon>frLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frListBox.Designer.vb">
+      <DependentUpon>frListBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frListBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLogin.Designer.vb">
+      <DependentUpon>frLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPegawai.Designer.vb">
+      <DependentUpon>frPegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frPegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPeriodeLaporan.Designer.vb">
+      <DependentUpon>frPeriodeLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frPeriodeLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frRadioButton.Designer.vb">
+      <DependentUpon>frRadioButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frRadioButton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frUtama.Designer.vb">
+      <DependentUpon>frUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVariable.Designer.vb">
+      <DependentUpon>frVariable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frVariable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVariable2.Designer.vb">
+      <DependentUpon>frVariable2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frVariable2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frCheckBox.resx">
+      <DependentUpon>frCheckBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frComboBox.resx">
+      <DependentUpon>frComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frHari.resx">
+      <DependentUpon>frHari.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frKonstanta.resx">
+      <DependentUpon>frKonstanta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLaporan.resx">
+      <DependentUpon>frLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frListBox.resx">
+      <DependentUpon>frListBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLogin.resx">
+      <DependentUpon>frLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPegawai.resx">
+      <DependentUpon>frPegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPeriodeLaporan.resx">
+      <DependentUpon>frPeriodeLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frRadioButton.resx">
+      <DependentUpon>frRadioButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frUtama.resx">
+      <DependentUpon>frUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVariable.resx">
+      <DependentUpon>frVariable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVariable2.resx">
+      <DependentUpon>frVariable2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
