@@ -12,39 +12,39 @@
   <xs:element name="dsPegawai" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsPegawai" msprop:Generator_DataSetName="dsPegawai">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="PEGAWAI" msprop:Generator_RowEvHandlerName="PEGAWAIRowChangeEventHandler" msprop:Generator_RowDeletedName="PEGAWAIRowDeleted" msprop:Generator_RowDeletingName="PEGAWAIRowDeleting" msprop:Generator_RowEvArgName="PEGAWAIRowChangeEvent" msprop:Generator_TablePropName="PEGAWAI" msprop:Generator_RowChangedName="PEGAWAIRowChanged" msprop:Generator_RowChangingName="PEGAWAIRowChanging" msprop:Generator_TableClassName="PEGAWAIDataTable" msprop:Generator_RowClassName="PEGAWAIRow" msprop:Generator_TableVarName="tablePEGAWAI" msprop:Generator_UserTableName="PEGAWAI">
+        <xs:element name="PEGAWAI" msprop:Generator_RowClassName="PEGAWAIRow" msprop:Generator_RowEvHandlerName="PEGAWAIRowChangeEventHandler" msprop:Generator_RowDeletedName="PEGAWAIRowDeleted" msprop:Generator_RowDeletingName="PEGAWAIRowDeleting" msprop:Generator_RowEvArgName="PEGAWAIRowChangeEvent" msprop:Generator_TablePropName="PEGAWAI" msprop:Generator_RowChangedName="PEGAWAIRowChanged" msprop:Generator_UserTableName="PEGAWAI" msprop:Generator_RowChangingName="PEGAWAIRowChanging" msprop:Generator_TableClassName="PEGAWAIDataTable" msprop:Generator_TableVarName="tablePEGAWAI">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="NIP" msprop:Generator_ColumnPropNameInRow="NIP" msprop:Generator_ColumnPropNameInTable="NIPColumn" msprop:Generator_ColumnVarNameInTable="columnNIP" msprop:Generator_UserColumnName="NIP">
+              <xs:element name="NIP" msprop:Generator_UserColumnName="NIP" msprop:Generator_ColumnPropNameInTable="NIPColumn" msprop:Generator_ColumnPropNameInRow="NIP" msprop:Generator_ColumnVarNameInTable="columnNIP">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="10" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="nama_x0020_Pegawai" msprop:Generator_ColumnPropNameInRow="nama_Pegawai" msprop:Generator_ColumnPropNameInTable="nama_PegawaiColumn" msprop:Generator_ColumnVarNameInTable="columnnama_Pegawai" msprop:Generator_UserColumnName="nama Pegawai">
+              <xs:element name="nama_Pegawai" msprop:Generator_UserColumnName="nama_Pegawai" msprop:Generator_ColumnPropNameInTable="nama_PegawaiColumn" msprop:Generator_ColumnPropNameInRow="nama_Pegawai" msprop:Generator_ColumnVarNameInTable="columnnama_Pegawai">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Tanggal_x0020_Lahir" msprop:Generator_ColumnPropNameInRow="Tanggal_Lahir" msprop:Generator_ColumnPropNameInTable="Tanggal_LahirColumn" msprop:Generator_ColumnVarNameInTable="columnTanggal_Lahir" msprop:Generator_UserColumnName="Tanggal Lahir" type="xs:dateTime" />
-              <xs:element name="Jenis_x0020_Kelamin" msprop:Generator_ColumnPropNameInRow="Jenis_Kelamin" msprop:Generator_ColumnPropNameInTable="Jenis_KelaminColumn" msprop:Generator_ColumnVarNameInTable="columnJenis_Kelamin" msprop:Generator_UserColumnName="Jenis Kelamin">
+              <xs:element name="Tanggal_Lahir" msprop:Generator_UserColumnName="Tanggal_Lahir" msprop:Generator_ColumnPropNameInTable="Tanggal_LahirColumn" msprop:Generator_ColumnPropNameInRow="Tanggal_Lahir" msprop:Generator_ColumnVarNameInTable="columnTanggal_Lahir" type="xs:dateTime" />
+              <xs:element name="Jenis_Kelamin" msprop:Generator_UserColumnName="Jenis_Kelamin" msprop:Generator_ColumnPropNameInTable="Jenis_KelaminColumn" msprop:Generator_ColumnPropNameInRow="Jenis_Kelamin" msprop:Generator_ColumnVarNameInTable="columnJenis_Kelamin">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="1" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Alamat" msprop:Generator_ColumnPropNameInRow="Alamat" msprop:Generator_ColumnPropNameInTable="AlamatColumn" msprop:Generator_ColumnVarNameInTable="columnAlamat" msprop:Generator_UserColumnName="Alamat">
+              <xs:element name="Alamat" msprop:Generator_UserColumnName="Alamat" msprop:Generator_ColumnPropNameInTable="AlamatColumn" msprop:Generator_ColumnPropNameInRow="Alamat" msprop:Generator_ColumnVarNameInTable="columnAlamat">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Telepon" msprop:Generator_ColumnPropNameInRow="Telepon" msprop:Generator_ColumnPropNameInTable="TeleponColumn" msprop:Generator_ColumnVarNameInTable="columnTelepon" msprop:Generator_UserColumnName="Telepon">
+              <xs:element name="Telepon" msprop:Generator_UserColumnName="Telepon" msprop:Generator_ColumnPropNameInTable="TeleponColumn" msprop:Generator_ColumnPropNameInRow="Telepon" msprop:Generator_ColumnVarNameInTable="columnTelepon">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
