@@ -230,6 +230,12 @@
     <Compile Include="frPeriodeLaporan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frPilihKelamin.Designer.vb">
+      <DependentUpon>frPilihKelamin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frPilihKelamin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frRadioButton.Designer.vb">
       <DependentUpon>frRadioButton.vb</DependentUpon>
     </Compile>
@@ -310,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frPeriodeLaporan.resx">
       <DependentUpon>frPeriodeLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPilihKelamin.resx">
+      <DependentUpon>frPilihKelamin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frRadioButton.resx">
       <DependentUpon>frRadioButton.vb</DependentUpon>
