@@ -14,16 +14,21 @@
 
     Private Sub PegawaiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PegawaiToolStripMenuItem.Click
         Dim frPgw As New frPegawai
+        frPgw.MdiParent = Me
         frPgw.Show()
     End Sub
 
     Private Sub PegawaiToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PegawaiToolStripMenuItem1.Click
         Dim frRpPgw As New frRpPegawai
+        frRpPgw.MdiParent = Me
         frRpPgw.Show()
     End Sub
 
     Private Sub TransaksiToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles TransaksiToolStripMenuItem1.Click
         Dim frTgl As New frPeriodeLaporan
+        frTgl.MdiParent = Me
         frTgl.Show()
     End Sub
+
+
 End Class

@@ -23,7 +23,6 @@ Partial Class frUtama
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frUtama))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
@@ -90,7 +89,7 @@ Partial Class frUtama
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(116, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'MasterToolStripMenuItem
@@ -152,53 +151,53 @@ Partial Class frUtama
         'TransaksiToolStripMenuItem1
         '
         Me.TransaksiToolStripMenuItem1.Name = "TransaksiToolStripMenuItem1"
-        Me.TransaksiToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.TransaksiToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.TransaksiToolStripMenuItem1.Text = "Transaksi"
         '
         'PemesananToolStripMenuItem1
         '
         Me.PemesananToolStripMenuItem1.Name = "PemesananToolStripMenuItem1"
-        Me.PemesananToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.PemesananToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.PemesananToolStripMenuItem1.Text = "Pemesanan"
         '
         'BarangToolStripMenuItem1
         '
         Me.BarangToolStripMenuItem1.Name = "BarangToolStripMenuItem1"
-        Me.BarangToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.BarangToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.BarangToolStripMenuItem1.Text = "Barang"
         '
         'PegawaiToolStripMenuItem1
         '
         Me.PegawaiToolStripMenuItem1.Name = "PegawaiToolStripMenuItem1"
-        Me.PegawaiToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.PegawaiToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.PegawaiToolStripMenuItem1.Text = "Pegawai"
         '
         'PemasokToolStripMenuItem1
         '
         Me.PemasokToolStripMenuItem1.Name = "PemasokToolStripMenuItem1"
-        Me.PemasokToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.PemasokToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.PemasokToolStripMenuItem1.Text = "Pemasok"
         '
         'PelangganToolStripMenuItem1
         '
         Me.PelangganToolStripMenuItem1.Name = "PelangganToolStripMenuItem1"
-        Me.PelangganToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.PelangganToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.PelangganToolStripMenuItem1.Text = "Pelanggan"
         '
         'AdminToolStripMenuItem1
         '
         Me.AdminToolStripMenuItem1.Name = "AdminToolStripMenuItem1"
-        Me.AdminToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.AdminToolStripMenuItem1.Size = New System.Drawing.Size(166, 26)
         Me.AdminToolStripMenuItem1.Text = "Admin"
         '
         'frUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1082, 638)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frUtama"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
