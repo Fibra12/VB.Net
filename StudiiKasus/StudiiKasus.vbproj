@@ -200,10 +200,10 @@
     <Compile Include="frKonstanta.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frLaporan.Designer.vb">
-      <DependentUpon>frLaporan.vb</DependentUpon>
+    <Compile Include="frRpPenjualan.Designer.vb">
+      <DependentUpon>frRpPenjualan.vb</DependentUpon>
     </Compile>
-    <Compile Include="frLaporan.vb">
+    <Compile Include="frRpPenjualan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frListBox.Designer.vb">
@@ -288,6 +288,12 @@
       <DependentUpon>rpPegawai.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="rpPenjualan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpPenjualan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frCheckBox.resx">
@@ -302,8 +308,8 @@
     <EmbeddedResource Include="frKonstanta.resx">
       <DependentUpon>frKonstanta.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frLaporan.resx">
-      <DependentUpon>frLaporan.vb</DependentUpon>
+    <EmbeddedResource Include="frRpPenjualan.resx">
+      <DependentUpon>frRpPenjualan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frListBox.resx">
       <DependentUpon>frListBox.vb</DependentUpon>
@@ -344,6 +350,10 @@
     <EmbeddedResource Include="rpPegawai.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rpPegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpPenjualan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpPenjualan.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
