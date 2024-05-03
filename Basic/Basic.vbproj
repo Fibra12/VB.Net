@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2BA903F-95FC-49CB-86F1-82C381FA947F}</ProjectGuid>
+    <ProjectGuid>{9ED04783-E67D-4789-A8E4-422691C57638}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>inventori.My.MyApplication</StartupObject>
-    <RootNamespace>inventori</RootNamespace>
-    <AssemblyName>inventori</AssemblyName>
+    <StartupObject>Basic.My.MyApplication</StartupObject>
+    <RootNamespace>Basic</RootNamespace>
+    <AssemblyName>Basic</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>inventori.xml</DocumentationFile>
+    <DocumentationFile>Basic.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>inventori.xml</DocumentationFile>
+    <DocumentationFile>Basic.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,11 +73,46 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="frHari.Designer.vb">
+      <DependentUpon>frHari.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frHari.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="frKonstanta.Designer.vb">
+      <DependentUpon>frKonstanta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frKonstanta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frListBox.Designer.vb">
+      <DependentUpon>frListBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frListBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLogin.Designer.vb">
+      <DependentUpon>frLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frRadioButton.Designer.vb">
+      <DependentUpon>frRadioButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frRadioButton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVariable.Designer.vb">
+      <DependentUpon>frVariable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frVariable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVariable2.Designer.vb">
+      <DependentUpon>frVariable2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frVariable2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +132,27 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frHari.resx">
+      <DependentUpon>frHari.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frKonstanta.resx">
+      <DependentUpon>frKonstanta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frListBox.resx">
+      <DependentUpon>frListBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLogin.resx">
+      <DependentUpon>frLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frRadioButton.resx">
+      <DependentUpon>frRadioButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVariable.resx">
+      <DependentUpon>frVariable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVariable2.resx">
+      <DependentUpon>frVariable2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

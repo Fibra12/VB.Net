@@ -175,47 +175,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsPegawai.xsd</DependentUpon>
     </Compile>
-    <Compile Include="frCheckBox.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frCheckBox.Designer.vb">
-      <DependentUpon>frCheckBox.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frComboBox.Designer.vb">
-      <DependentUpon>frComboBox.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frComboBox.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frHari.Designer.vb">
-      <DependentUpon>frHari.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frHari.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frKonstanta.Designer.vb">
-      <DependentUpon>frKonstanta.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frKonstanta.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frRpPenjualan.Designer.vb">
       <DependentUpon>frRpPenjualan.vb</DependentUpon>
     </Compile>
     <Compile Include="frRpPenjualan.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frListBox.Designer.vb">
-      <DependentUpon>frListBox.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frListBox.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frLogin.Designer.vb">
-      <DependentUpon>frLogin.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frLogin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frPegawai.Designer.vb">
@@ -236,12 +199,6 @@
     <Compile Include="frPilihKelamin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frRadioButton.Designer.vb">
-      <DependentUpon>frRadioButton.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frRadioButton.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frRpPegawai.Designer.vb">
       <DependentUpon>frRpPegawai.vb</DependentUpon>
     </Compile>
@@ -252,18 +209,6 @@
       <DependentUpon>frUtama.vb</DependentUpon>
     </Compile>
     <Compile Include="frUtama.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frVariable.Designer.vb">
-      <DependentUpon>frVariable.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frVariable.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frVariable2.Designer.vb">
-      <DependentUpon>frVariable2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frVariable2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -296,26 +241,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frCheckBox.resx">
-      <DependentUpon>frCheckBox.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frComboBox.resx">
-      <DependentUpon>frComboBox.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frHari.resx">
-      <DependentUpon>frHari.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frKonstanta.resx">
-      <DependentUpon>frKonstanta.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frRpPenjualan.resx">
       <DependentUpon>frRpPenjualan.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frListBox.resx">
-      <DependentUpon>frListBox.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frLogin.resx">
-      <DependentUpon>frLogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frPegawai.resx">
       <DependentUpon>frPegawai.vb</DependentUpon>
@@ -326,20 +253,11 @@
     <EmbeddedResource Include="frPilihKelamin.resx">
       <DependentUpon>frPilihKelamin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frRadioButton.resx">
-      <DependentUpon>frRadioButton.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frRpPegawai.resx">
       <DependentUpon>frRpPegawai.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frUtama.resx">
       <DependentUpon>frUtama.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frVariable.resx">
-      <DependentUpon>frVariable.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frVariable2.resx">
-      <DependentUpon>frVariable2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

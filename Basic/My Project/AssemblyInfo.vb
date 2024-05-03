@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("inventori")>
+<Assembly: AssemblyTitle("Basic")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("inventori")>
+<Assembly: AssemblyProduct("Basic")>
 <Assembly: AssemblyCopyright("Copyright ©  2024")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("1371eea1-0032-4e03-9f18-3fd6a0b26c51")>
+<Assembly: Guid("4f22ebc9-db92-4e3c-9125-a369faf0fba9")>
 
 ' Version information for an assembly consists of the following four values:
 '
